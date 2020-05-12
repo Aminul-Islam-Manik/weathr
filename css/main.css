@@ -1,0 +1,178 @@
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px) {
+
+    .m-auto {
+        align-items: end;
+    }
+    .social-icons ul {
+        margin-left: 291px;
+    }
+    .header-section .banner-tittle {
+        padding: 21px 0px 0px 10px;
+    }
+    #pre {
+        left: 6%;
+    }
+    #nex {
+        right: 6%;
+    }
+    #main {
+        left: 35%;
+    }
+
+
+
+}
+
+
+  /* 
+Small devices (landscape phones, 576px and up)
+  */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .m-auto {
+      align-items: end;
+  }
+  .social-icons ul {
+      margin-left: 435px;
+  }
+  .header-section .banner-tittle {
+      padding: 21px 0px 0px 10px;
+  }
+  #pre {
+    left: 6%;
+}
+#nex {
+    right: 6%;
+}
+#main {
+    left: 35%;
+}
+
+
+
+
+
+  }
+
+
+  /* 
+Medium devices (tablets, 768px and up)
+  */
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .m-auto {
+      align-items: end;
+  }
+  .header-section .banner-tittle h1 {
+    font-size: 24px;
+}
+  .social-icons ul {
+      margin-left: 494px;
+  }
+  .header-section .banner-tittle {
+      padding: 66px 0px 0px 10px;
+  }
+
+  .gobal-img img {
+    display: block;
+    position: unset;
+}
+.gobal-img h2 {
+  font-size: 16px;
+  display: block;
+  margin-left: 0px;
+}
+.gobal-img p {
+  display: block;
+  margin-left: 0px;
+}
+.gobal-img{
+  margin-left: 23px;
+}
+#pre {
+  left: 11%;
+}
+#nex {
+  right: 6%;
+}
+#main {
+  left: 42%;
+}
+
+
+.cloud img {
+  margin: 48px 0px 15px 55px;
+}
+.cloud h4 {
+  margin: 0px 0px 9px 52px;
+  font-size: 25px;
+}
+.cloud p {
+  margin: 0px 0px 15px 51px;
+}
+.images-last {
+  margin-left: 41px;
+}
+.gobal-tittle h1{
+  font-size: 33px;
+}
+.gobal-tittle img{
+  margin-top: 10px;
+}
+.footer-img{
+  margin-top: 77px;
+}
+
+
+
+  }
+
+
+  /* 
+Large devices (Desktops, 992px and up)
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .social-icons{
+      width: 148px;
+      padding-top: 5px;
+    }
+
+    .cloud img {
+      margin: 81px 0px 15px 55px;
+    }
+    .cloud h4 {
+      margin: 0px 0px 9px 52px;
+      font-size: 42px;
+    }
+    .cloud p {
+      margin: 0px 0px 15px 51px;
+    }
+    .images-last {
+      margin-left: 41px;
+    }
+    
+
+
+
+
+  }
+    
+
+  /* 
+Extra large devices (large desktops, 1200px and up)
+  */
+  
+  @media (min-width: 1200px) {
+    #main {
+      left: 47%;
+  }
+
+
+
+
+  }

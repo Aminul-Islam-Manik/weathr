@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/wbgline.png) center top no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.header-section{
+    width: 100%;
+    background: url(../images/wbg12.png) center top no-repeat;
+    background-size: cover;
+    padding: 39px;
+}
+.header-section img{
+    width: 80%;
+    margin-top: 71px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.header-section .banner-tittle{
+    padding: 136px 0px 218px 10px;
+}
+.header-section .navbar .navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-section .navbar-nav .nav-item .nav-link{
+    color: #ffffffab;
+}
+.social-icons ul{
+    list-style: none;
+    float: left;
+}
+.social-icons ul li{
+    padding: 0px 15px;
+    color: #fff;
+    padding-top: 4px;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 8px 0px 0px 67px;
+}
+.header-section .banner-tittle h1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+.header-section .banner-tittle p{
+    padding: 15px 0;
+    font-size: 16px;
+    color: #fff;
+}
+.header-section .btn-double .btn-primary{
+    color: #fff;
+    padding: 8px 27px;
+    background: #fc6a42;
+    border: none;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.header-section .btn-double .btn-info{
+    color: #fff;
+    padding: 8px 27px;
+    background: #4466c9;
+    border: none;
+    font-size: 13px;
+}
+.content-section{
+    width: 100%;
+}
+.content-section .gobal-tittle{
+    padding: 80px 0px 30px 0;
+}
+.content-section .gobal-tittle h1{
+    color: #648cff;
+    font-size: 39px;
+    font-weight: 700;
+}
+.content-section .gobal-tittle p{
+    color: #0000008c;
+    font-size: 15px;
+}
+.gobal-img img{
+    display: inline-block;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.gobal-img h2{
+    display: inline-block;
+    margin-left: 84px;
+    font-size: 20px;
+    padding: 19px 0;
+}
+
+.gobal-img p{
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 86px;
+    margin-top: -23px;
+    line-height: 16px;
+}
+
+
+.slider-section{
+    width: 100%;
+    padding: 65px 0;
+}
+#main{
+    position: absolute;
+    top:35%;
+    left: 45%;
+}
+#side1{
+    width: 150px;
+    position: absolute;
+    transform: translateX(0px) scale(1.5);
+    z-index: 99;
+    transition: all .3s;
+    box-shadow: 4px 13px 30px 13px #0000001a;
+}
+#side2{
+    width: 150px;
+    position: absolute;
+    transform: translateX(-100px);
+    z-index: 9;
+    transition: all .3s;
+    box-shadow: 4px 13px 30px 13px #0000001a;
+}
+#side3{
+    width: 150px;
+    position: absolute;
+    transform: translateX(100px);
+    z-index: 9;
+    transition: all .3s;
+    box-shadow: 4px 13px 30px 13px #0000001a;
+}
+#pre{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    margin-top: 90px;
+}
+#pre:hover{
+    cursor: pointer;
+}
+#nex{
+    position: absolute;
+    top:50%;
+    right: 12%;
+    margin-top: 90px;
+}
+#nex:hover{
+    cursor: pointer;
+}
+
+.slider-section .gobal-tittle{
+    padding-bottom: 85px;
+}
+.slider-section .gobal-tittle h1{
+    color: #648cff;
+    font-size: 39px;
+    font-weight: 700;
+}
+.slider-section .gobal-tittle p{
+    color: #0000008c;
+    font-size: 15px;
+}
+.information-section{
+    width: 100%;
+    padding: 20px 0px 200px;
+}
+.information-section .gobal-tittle{
+    padding: 64px;
+}
+.information-section .gobal-tittle h1{
+    color: #648cff;
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 213px;
+}
+.information-section .gobal-tittle p{
+    color: #0000008c;
+    font-size: 15px;
+}
+.padd{
+    padding: 90px 0;
+}
+.cloud{
+    width: 100%;
+}
+.cloud img{
+    margin: 117px 0px 15px 94px;
+}
+.images-last{
+    margin-left: 94px;
+}
+.cloud h4{
+    margin: 28px 0px 32px 94px;
+    font-size: 40px;
+    color: #648cff;
+}
+.cloud p{
+    margin: 0px 76px 15px 94px;
+}
+
+.reviews-section{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.reviews-section .gobal-tittle h1{
+    color: #648cff;
+    font-size: 39px;
+    font-weight: 700;
+}
+.reviews-section .gobal-tittle p{
+    color: #0000008c;
+    font-size: 15px;
+}
+.img-icon{
+    position: relative;
+}
+.text-left{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+
+}
+
+.img-icon p{
+    font-size: 20px;
+    padding: 21px 0px;
+}
+
+.img-icon h6{
+    margin-top: -26px;
+    font-size: 15px;
+}
+
+.download-section{
+    width: 100%;
+    padding: 30px 0;
+    background: #648cff;
+    overflow: hidden;
+}
+.download-section .gobal-tittle{
+    padding: 70px 0px;
+}
+.download-section .gobal-tittle{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 700;
+
+}
+
+.download-section .gobal-tittle p{
+    color: #fff;
+    font-size: 15px;
+}
+.footer-img img{
+    width: 136%;
+}
+.footer-section{
+    background: #353854;
+    padding: 55px 0px 40px 0px;
+}
+.footer-section nav::before{
+    content: '';
+    position: absolute;
+    width: 130%;
+    height: 1px;
+    background: #dddddd2e;
+    top: 178%;
+    left: -15%;
+}
+
+.footer-per{
+    margin-top: 80px;
+}
+
+
+
